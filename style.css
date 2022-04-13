@@ -1,0 +1,56 @@
+main{
+    font-size: 75px;
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    background-image: url(bg.jpg);
+    padding: 25px;
+}
+
+main p{
+    font-size: 50px;
+}
+
+.barraDePesquisa{
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+.barraDePesquisa input{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+main nav{
+    text-align: end;
+    vertical-align: text-top;
+    font-size: 45px;
+    color: aliceblue;
+}
+
+body{
+    background-color: rgb(255, 166, 94);
+}
+
+.produtos{
+    width: 350px;
+    background-color: #ffff;
+    position: fixed center;
+}
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px;
+    color: #CCCCCC;
+}
