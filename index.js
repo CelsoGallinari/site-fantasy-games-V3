@@ -3,10 +3,6 @@ const app = express();
 const bodyParser = require("body-parser")
 const connection = require("./database/database")
 
-//View Engine
-
-app.set('view engine','ejs')
-
 //statics
 
 app.use(express.static('public'))
@@ -27,7 +23,7 @@ connection
 //Inicializando servidor
 
 app.get("/", (req, res) => {
-    res.render("views/index")
+    res.render("index.html")
 })
 
 app.listen(8080, () => {

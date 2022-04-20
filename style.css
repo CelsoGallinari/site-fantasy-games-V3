@@ -1,56 +1,102 @@
-main{
-    font-size: 75px;
-    color: aliceblue;
+/* CSS Página inicial*/
+html{
     font-family: 'Bebas Neue', cursive;
-    background-image: url(bg.jpg);
-    padding: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e9e9e9;
 }
 
-main p{
-    font-size: 50px;
+header{
+    overflow: hidden ;
+    background-color: black;
+    padding: 40px;
+}
+
+header p{
+   font-size: 65px;
+   font-weight: bold; 
+}
+
+header h1{
+    font-size: 30px;
+}
+
+header a{
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+head .Logo_home{
+    padding: 30px;
+}
+
+header .direita{
+    float: right;
+}
+
+header .login{
+    float: left; 
+}
+
+header .carrinho{
+    float: left;
+}
+
+body{
+    background-color: rgb(255, 129, 38);
 }
 
 .barraDePesquisa{
     overflow: hidden;
-    background-color: #e9e9e9;
+    background-color: #CCCCCC;
 }
 
 .barraDePesquisa input{
-    float: right;
-    padding: 6px;
+    float: none;
+    padding: 0 45%;
     border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-}
-
-main nav{
-    text-align: end;
-    vertical-align: text-top;
-    font-size: 45px;
-    color: aliceblue;
-}
-
-body{
-    background-color: rgb(255, 166, 94);
-}
-
-.produtos{
-    width: 350px;
-    background-color: #ffff;
-    position: fixed center;
-}
-
-
-
-
-
-
-
-
-footer{
-    text-align: center;
-    background: url(bg.jpg);
-    padding: 40px;
+    margin-right: 100%;
+    font-size: 25px;
     color: #CCCCCC;
+}
+
+.produtos {
+    width: 1000px;
+    margin: auto; 
+    padding: 40px 40px;
+    background-color: #ffffff;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    color: #000000;
+    fill: #e9e9e9;
+}
+
+li h2{
+    color: rgb(255, 0, 0);
+}
+
+.botaoComprar{
+    background-color: rgba(255, 166, 0, 0.993);
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
 }
