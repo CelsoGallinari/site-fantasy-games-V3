@@ -1,0 +1,110 @@
+html{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #a8a4a4fd;
+}
+
+header{
+    overflow: hidden ;
+    background-color: black;
+}
+
+header p{
+   font-size: 65px;
+   font-weight: bold; 
+}
+
+header h1{
+    font-size: 30px;
+}
+
+header a{
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+header .Logo_home{
+    padding: 30px;
+}
+
+header .direita{
+    float: right;
+}
+
+header .login{
+    float: left; 
+}
+
+header .carrinho{
+    float: left;
+}
+
+.texto_produto{
+    float: right;
+    font-weight: bold;
+    padding-right: 10px;
+    background-color: #ffffff;
+}
+
+.texto_produto p{
+    font-size: 30px;
+    color: black;
+    padding-top: 30px;
+}
+
+.texto_produto h1{
+    font-size: 30px;
+    color: red;
+}
+
+.botaoAdicionarCarrinho{
+    background-color: rgba(255, 166, 0, 0.993);
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    height: 75px;
+}
+
+.descrição p{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.descrição{
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    padding: 50px;
+    background-color: rgb(207, 205, 205);
+    line-height: 30px;
+}
+
+
+/*Rodapé da página*/
+footer{
+    font-size: 15px;
+    color: #ffffff
+}
+
+footer .endereços{
+    padding: 20px;
+    text-align: left;
+    vertical-align: left;
+    background-color: #6b6b6b;
+
+}
+
+footer .copyrigth{
+    padding: 30px;
+    text-align: center;
+    background-color: #000000;
+}

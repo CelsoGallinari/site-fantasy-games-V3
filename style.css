@@ -58,15 +58,14 @@ body{
 
 .barraDePesquisa input{
     float: none;
-    padding: 0 45%;
     border: none;
-    margin-right: 100%;
+    /*margin-right: 100%;*/
     font-size: 25px;
-    color: #CCCCCC;
+    color: #000000;
 }
 
 .produtos {
-    width: 1000px;
+    width: 50%;
     margin: auto; 
     padding: 40px 40px;
     background-color: #ffffff;
@@ -78,6 +77,7 @@ body{
     width: 200px;
     vertical-align: top;
     margin: 0 1.5%;
+    margin-bottom: 17px;
     padding: 10px;
     box-sizing: border-box;
     border-color: #000000;
@@ -100,3 +100,26 @@ li h2{
     width: 100%;
     border-radius: 5px;
 }
+
+/*Rodapé da página*/
+footer{
+    font-size: 15px;
+}
+
+footer .endereços{
+    padding: 10px 0 20px 20px;
+    text-align: left;
+    width: 100%;
+    vertical-align: left;
+    background-color: #6b6b6b;
+
+}
+
+footer .copyrigth{
+    padding: 30px 0;
+    text-align: center;
+    background-color: #000000;
+}
+
+
+
