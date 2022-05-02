@@ -1,14 +1,106 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Fantasy Games</title>
+  <link rel="stylesheet" href="CSS/reset.css">
+  <link rel="stylesheet" href="CSS/login.css">
+  <link rel="" href=".\site-fantasy-games-V3-main\index.js">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link href="index.html">
+</head>
 
-    <head>
-        <meta charset="utf-8">
-        <title>Login | Fantasy Games</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap" rel="stylesheet">
-    </head>
+<header>
+  <div class="Logo home">
+      <img src=".\imagens\LOGO FANTASY.jpg" href="index.html" alt="imagem logo" width="10%">
+  </div>
 
+</header>
+<body>
+  <br>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     <!--FORMULÁRIO DE CADASTRO-->
+    <div class="content"> 
+      <div id="cadastro">
+        <form method="post" action=""> 
+          <h1>Cadastro</h1> 
+           
+          <p> 
+            <label for="nome_cad">Seu nome</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+          </p>
+           
+          <p> 
+            <label for="email_cad">Seu e-mail</label>
+            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="email@email.com"/> 
+          </p>
+           
+          <p> 
+            <label for="senha_cad">Sua senha</label>
+            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Cadastrar" href="index.html"/> 
+          </p>
+           
+          <p class="link">  
+            Já tem conta?
+            <a href="#paralogin"> Ir para Login </a>
+          </p>
+        </form>
+      </div>     
+
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="login">
+        <form method="post" action=""> 
+          <h1>Login</h1> 
+          <p> 
+            <label for="nome_login">Seu e-mail</label>
+            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. email@email.com"/>
+          </p>
+           
+          <p> 
+            <label for="email_login">Sua senha</label>
+            <input id="email_login" name="email_login" required="required" type="password" placeholder="ex. senha" /> 
+          </p>
+           
+          <p> 
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me logado</label>
+          </p>
+           
+          <p href="index.html"> 
+            <input type="submit" value="Conectar-se"/> 
+          </p>
+           
+          <p class="link">
+            Ainda não tem conta?
+            <a href="#paracadastro">Cadastre-se</a>
+          </p>
+        </form>
+      </div>
+
+      
+
+</div>
+</div>  
+
+<footer>
+  <div class="endereços">
+      <li>Artur Nogueira - R. XV de Novembro, 788 - Centro, Artur Nogueira - SP, 13163-190</li>
+      <li>Conchal - R. Mogi Mirim, 583 - Lago, Conchal - SP, 13835-000</li>
+      <br>
+  </div>
+
+  <div class="copyrigth">
+      <p> Fantasy Games | Todos os direitos reservados. Os preços anunciados neste site podem ser alterados sem prévio aviso. A Fantasy Games não é responsável por erros descritivos. As fotos contidas nesta página são meramente ilustrativas do produto e podem variar de acordo com o fornecedor/lote do fabricante. </p>
+  </div>
+</footer>
+</body>
 </html>
+ 
+      
