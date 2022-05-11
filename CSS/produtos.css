@@ -1,0 +1,194 @@
+html{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    overflow: hidden ;
+    background-color: black;;
+}
+
+header p{
+   font-size: 65px;
+   font-weight: bold; 
+}
+
+header h1{
+    font-size: 30px;
+}
+
+header a{
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+
+header .direita{
+    float: right;
+}
+
+header .login{
+    float: left; 
+}
+
+header .carrinho{
+    float: left;
+}
+
+header{
+    margin-bottom: 2%;
+}
+
+.texto_produto{
+    float: right;
+    font-weight: bold;
+    background-color: #ffffff;
+    margin-left: 30px;
+}
+
+.texto_produto p{
+    font-size: 20px;
+    color: black;
+    padding-top: 30px;
+}
+
+.parcelas{
+    display: inline-block;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    fill: #e9e9e9;
+}
+
+.botaoAdicionarCarrinho{
+    display: flex;
+    background-color: rgba(255, 166, 0, 0.993);
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    height: 10%;
+    margin-bottom: 2%;
+}
+
+.descrição p{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.descrição{
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    padding: 50px;
+    background-color: rgb(207, 205, 205);
+    line-height: 30px;
+}
+
+.tituloComentario{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.comentario{
+    color: #000000;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.comentario form{
+    margin: 40px 0; 
+ }
+ 
+ .comentario form label{
+     display: block;
+ }
+ 
+ .comentario form input{
+     display: block;
+ }
+
+ .avaliacao{
+    display: flex;
+}
+
+.star-icon{
+    list-style-type: none;
+    border: 5px solid #fff;
+    cursor: pointer;
+    color: #ffe500;
+}
+
+.star-icon::before{
+    content: "\2605";
+}
+
+.star-icon.ativo ~ .star-icon::before{
+    content: "\2606";
+}
+
+.avaliacao:hover .star-icon::before{
+    content: "\2605";
+}
+
+.star-icon:hover ~ .star-icon::before{
+    content: "\2606";
+}
+
+.botaoAvaliacao{
+    display: flex;
+    background-color: rgba(255, 166, 0, 0.993);
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    height: 75px;
+}
+
+/*Rodapé da página*/
+footer{
+    font-size: 15px;
+    color: #ffffff
+}
+
+footer .endereços{
+    list-style: none;
+    padding: 20px;
+    text-align: left;
+    vertical-align: left;
+    background-color: #6b6b6b;
+
+}
+
+footer .copyrigth{
+    padding: 30px;
+    text-align: center;
+    background-color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .descrição, .avaliacao, .produto {
+        width: auto;
+    }
+    
+}

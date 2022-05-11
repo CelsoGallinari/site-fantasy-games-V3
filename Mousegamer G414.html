@@ -4,26 +4,34 @@
     <head>
         <meta charset="utf-8">
         <title>Mouse gamer G414 | Fantasy Games</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="CSS/PS4.css">
+        <link rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="CSS/produtos.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap" rel="stylesheet">
     </head>
     
-    <header>
-        <div class="Logo home">
-            <img src=".\imagens\LOGO FANTASY.jpg" href="index.html" alt="imagem logo" width="10%">
-        </div>
-    
-        <div class="direita">
-            <a class="login">Login</a>
-            <a class="carrinho">Carrinho</a>
-        </div>    
-    </header>
+    <!--Cabeçalho da página-->
+<header>
+    <div class="logoHome">
+        <a href="index.html">
+            <img src=".\imagens\LOGO FANTASY.jpg" alt="imagem logo" width="35%">
+        </a>
+    </div>
+
+    <!-- Barra de pesquisa de itens-->
+    <div class="barraDePesquisa">
+        <input type="text" placeholder="Pesquisar item...">
+    </div> 
+
+    <div class="direita">
+        <a class="login" href="login.html">Login</a>
+        <a class="carrinho" href="carrinho.html">Carrinho</a>
+    </div>  
+</header>
 
     <body>
-        <img src="C:\Users\Aluno.LIM_05_03\Downloads\site-fantasy-games-V3-main\site-fantasy-games-V3-main\imagens\MouseG414.jpg" class="produto" width="25%">    
+        <img src=".\imagens\MouseG414.jpg" class="produto" width="25%">    
             
         <div class="texto_produto">
             <p>Mouse Gamer G414</p>
@@ -31,6 +39,12 @@
             <p> <img src=".\imagens\dinheiro.jpg" width="7%">
                 R$99,00 À VISTA </p>
             <p> <img src=".\imagens\cartao.jpg" width="7%>"> 3x R$40,00 </p>
+
+            <ul class="parcelas">
+                <li>1x de R$99,00 </li>
+                <li>2x de R$45,99</li>
+                <li>3x de R$40,00</li>
+            </ul>
 
             <input class="botaoAdicionarCarrinho" type="button" value="ADICIONAR AO CARRINHO"> 
         </div>
@@ -41,6 +55,58 @@
             <ul>
                Mouse Gamer 7 Botões Philips G414 - 3600 Dpi Led 7 Cores Backlight Usb -  Para trabalhar em casa com o computador ou aproveitar os momentos de lazer, você precisa de conforto e facilidade de movimento. Com o seu Mouse Philips encontrará o que você está procurando num único dispositivo com a melhor tecnologia.Adaptado aos seus movimentos:O mouse para jogos oferece a possibilidade de fazer a diferença e tirar proveito dos seus jogos. Sua conectividade e sensor suave ajudarão a você a se mover rapidamente pela tela.Funcionalidade na ponta dos dedos:O sistema de detecção de movimento óptico permitirá que você mova o cursor duma forma mais precisa e sensível do que os sistemas tradicionais. Com seus 7 botões você poderá ter mais controle e independência para executar.Especificações técnicas:Tipo de Produto:Mouse para jogos de alto desempenhoTipo de projeto:Design ergonômicoConectividade:USB 2.0 com fioBotões:7 botõesPrecisão do sensor óptico:1200-1600-2400-3600 DPIQuadros por segundo:6000 FPSTaxa de sondagem:125HzExigência do motorista:Sem motoristaTipo de efeito de iluminação:Iluminação de 7 viasTipo de revestimento:Revestimento UV foscoVida útil chave:5 milhões
             </ul>
+        </div>
+
+        <div>
+            <p class="tituloComentario">AVALIAÇÕES</p>
+        </div>
+    
+        <div class="comentario">
+            <h1>Deixe seu comentário</h1>
+            <form>
+                <label for="nomeesobrenome">Nome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+    
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required placeholder="Deixe sua opnião..."></textarea> <br>
+    
+                <ul class="avaliacao">
+                    <li class="star-icon ativo" data-avaliacao="1"></li>
+                    <li class="star-icon" data-avaliacao="2"></li>
+                    <li class="star-icon" data-avaliacao="3"></li>
+                    <li class="star-icon" data-avaliacao="4"></li>
+                    <li class="star-icon" data-avaliacao="5"></li>
+                </ul>
+    
+                
+            </form>
+    
+            <input class="botaoAvaliacao" type="button" value="Enviar avaliação">
+        </div><div>
+            <p class="tituloComentario">AVALIAÇÕES</p>
+        </div>
+    
+        <div class="comentario">
+            <h1>Deixe seu comentário</h1>
+            <form>
+                <label for="nomeesobrenome">Nome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+    
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required placeholder="Deixe sua opnião..."></textarea> <br>
+    
+                <ul class="avaliacao">
+                    <li class="star-icon ativo" data-avaliacao="1"></li>
+                    <li class="star-icon" data-avaliacao="2"></li>
+                    <li class="star-icon" data-avaliacao="3"></li>
+                    <li class="star-icon" data-avaliacao="4"></li>
+                    <li class="star-icon" data-avaliacao="5"></li>
+                </ul>
+    
+                
+            </form>
+    
+            <input class="botaoAvaliacao" type="button" value="Enviar avaliação">
         </div>
 
         <footer>

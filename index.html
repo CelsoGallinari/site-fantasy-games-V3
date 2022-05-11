@@ -11,28 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 
+<!--Cabeçalho da página-->
 <header>
-    <div class="Logo home">
-        <img src=".\imagens\LOGO FANTASY.jpg" href="index.html" alt="imagem logo" width="7%">
+    <div class="logoHome">
+        <a href="index.html">
+            <img src=".\imagens\LOGO FANTASY.jpg" alt="imagem logo" width="35%">
+        </a>
     </div>
 
+    <!-- Barra de pesquisa de itens-->
     <div class="barraDePesquisa">
-        <input type="text" placeholder="Pesquisar item..." >
-    </div>
+        <input type="text" placeholder="Pesquisar item...">
+    </div> 
 
     <div class="direita">
         <a class="login" href="login.html">Login</a>
         <a class="carrinho" href="carrinho.html">Carrinho</a>
-    </div>    
+    </div>  
 </header>
 
 <body>
-<!--Barra de pesquisa de produtos
-    <div class="anuncios">
-        <input type="text" placeholder="Pesquisar item..." width="189px">
-    </div>
--->
-
 <!-- Lista com os produtos ques estão em exibição no site -->
     <div class="produtos">
         <li class="PS4">
@@ -40,15 +38,19 @@
             <p>Console SONY Play Station 4</p>
             <h1>R$1.599,99 À VISTA</h1>
             <h2>Em até 6x R$299,99</h2>
-            <input class="botaoComprar" type="button" value="COMPRAR" href="PlayStation4.html"> 
+            <a href="PlayStation4.html">
+                <input class="botaoComprar" type="button" value="COMPRAR" href="PlayStation4.html"> 
+            </a>
         </li>
 
         <li>
             <img src=".\imagens\xboxSX.jpg" alt="Xbox SeriesX" width="85%" height="85%">
             <p>Console MICROSOFT Xbox SeriesX</p>
             <h1>R$6.199,99 À VISTA</h1>
-            <h2>Em até 10x R$6.499,99</h2>
-            <input class="botaoComprar" type="button" value="COMPRAR"> 
+            <h2>Em até 10x R$541,66</h2>
+            <a href="XboxSeriesX.html">
+                <input class="botaoComprar" type="button" value="COMPRAR"> 
+            </a>
         </li>
 
         <li>
@@ -56,7 +58,9 @@
             <p>Console SONY Play Station 5</p>
             <h1>R$5.999,99 À VISTA</h1>
             <h2>Em até 12x R$541,60</h2>
-            <input class="botaoComprar" type="button" value="COMPRAR" > 
+            <a href="PlayStation5.html">
+                <input class="botaoComprar" type="button" value="COMPRAR" > 
+            </a>
         </li>
 
         <li>
@@ -64,7 +68,9 @@
             <p> Teclado Hyper X Alloy Origins, RGB, Switch Blue, ABNT2</p>
             <h1>R$579,99 À VISTA</h1>
             <h2>Em até 6x R$109,83</h2>
-            <input class="botaoComprar" type="button" value="COMPRAR" > 
+            <a href="TecladoHyperX.html">
+                <input class="botaoComprar" type="button" value="COMPRAR" > 
+            </a>
         </li>
 
         <li>
@@ -72,40 +78,100 @@
             <p>Mouse Gamer G414</p>
             <h1>R$99,00 À VISTA</h1>
             <h2>Em até 3x R$40,00</h2>
-            <input class="botaoComprar" type="button" value="COMPRAR"> 
+            <a href="Mousegamer G414.html">
+                <input class="botaoComprar" type="button" value="COMPRAR"> 
+            </a>
         </li>
 
         <li>
             <img src=".\imagens\TecladoSingleHand.jpg" alt="Teclado G414" width="150px" height="150px">
             <p>Teclado Gamer Teclado Single Hand</p>
             <h1>R$199,00 À VISTA</h1>
-            <h2>Em até 5x R$44,00</h2>
-            <input class="botaoComprar" type="button" value="COMPRAR"> 
+            <h2>Em até 3x R$63,33</h2>
+            <a href="TecladoSingleHand.html">
+                <input class="botaoComprar" type="button" value="COMPRAR"> 
+            </a>
         </li>
 
         <li>
             <img src=".\imagens\Controle XBOX.jpg" alt="Controle XBox Series S" width="150px" height="165px">
-            <p>Controle sem Fio Xbox - Carbon Black</p>
+            <p>Controle sem Fio Xbox</p>
             <h1>R$550,00 À VISTA</h1>
             <h2>Em até 5x R$130,00</h2>
-            <input class="botaoComprar" type="button" value="COMPRAR"> 
+            <a href="ControleSemFioXbox.html">
+                <input class="botaoComprar" type="button" value="COMPRAR"> 
+            </a>
         </li>
 
         <li>
             <img src=".\imagens\HX StingerCore.jpg" alt="Controle XBox Series S" width="150px" height="165px">
-            <p>Headset Gamer HyperX Cloud Stinger</p>
+            <p>Headset HyperX Cloud Stinger</p>
             <h1>R$550,00 À VISTA</h1>
             <h2>Em até 5x R$130,00</h2>
-            <input class="botaoComprar" type="button" value="COMPRAR"> 
+            <a href="HeadsetGamerHyperXCloud.html">
+                <input class="botaoComprar" type="button" value="COMPRAR"> 
+            </a>
         </li>
     </div>
  
+<!--Notícias da página-->
+        <div class="noticias">
+            <p class="titulo"> NOTÍCIAS DO DIA</p>
+        </div>
+
+        <div class="feedNoticias">
+            <ul>
+                <li>
+                    <a href="https://adrenaline.com.br/noticias/v/75491/fifa-fara-jogos-com-outros-parceiros-apos-fim-do-contrato-com-a-ea">                    
+                    <p> <img src=".\imagens\noticiafifa.png">FIFA fará jogos com outros parceiros após fim do contrato com a EA</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://portalrapmais.com/gta-6-dona-da-rockstar-games-confirma-conferencia-para-apresentar-novos-projetos/">
+                        <p> <img src=".\imagens\taketwo.jpg"> GTA 6: Dona da Rockstar Games confirma conferência para apresentar novos projetos</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://adrenaline.com.br/noticias/v/75492/gotham-knights-pre-venda-digital-comecou-e-traz-edicao-especial-que-custa-r-450-nos-consoles11111111">
+                        <p> <img src=".\imagens\batman.jpg"> Gotham Knights: pré-venda digital começou e traz edição especial que custa R$ 450 nos consoles</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://adrenaline.com.br/noticias/v/75441/western-digital-revela-hdds-de-22tb-e-26tb-com-tecnologia-epmr-e-optinand">
+                        <p> <img src=".\imagens\hdd22tb.jpg" width="15%">Western Digital revela HDDs de 22TB e 26TB com tecnologia ePMR e OptiNAND</p>                       
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.folhavitoria.com.br/geral/noticia/05/2022/tecnologia-do-metaverso-passa-a-ser-utilizada-em-decoracao-de-apartamento">    
+                        <p> <img src=".\imagens\meta.jpg">Tecnologia do metaverso passa a ser utilizada em decoração de apartamento</p>
+                    </a>
+                </li>
+                <li><a href="https://g1.globo.com/economia/noticia/2022/05/10/bitcoin-em-queda-entenda-a-desvalorizacao-das-criptomoedas.ghtml">
+                    <p> <img src=".\imagens\bitcoin.jpg">Bitcoin em queda: entenda a desvalorização das criptomoedas</p>
+                </a>
+                </li>
+            <li>
+                <a href="https://www.techtudo.com.br/noticias/2022/05/xiaomi-12-chega-ao-brasil-com-preco-nas-alturas-veja-os-detalhes.ghtml">
+                    <p> <img src=".\imagens\xiaomi12.jpg"> Xiaomi 12 chega ao Brasil com preço nas alturas; veja os detalhes</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.techtudo.com.br/listas/2022/05/sete-truques-da-netflix-que-voce-nao-esta-usando-mas-deveria.ghtml">
+                    <p> <img src=".\imagens\netflix.jpg"> Sete truques da Netflix que você não está usando, mas deveria</p>                    
+                </a>
+            </li>
+            </ul>
+        </div>     
+
+<!--Rodapé da página-->
     <footer>
         <div class="endereços">
             <li>Artur Nogueira - R. XV de Novembro, 788 - Centro, Artur Nogueira - SP, 13163-190</li>
             <li>Conchal - R. Mogi Mirim, 583 - Lago, Conchal - SP, 13835-000</li>
-            <br>
+
+
         </div>
+
 
         <div class="copyrigth">
             <p> Fantasy Games | Todos os direitos reservados. Os preços anunciados neste site podem ser alterados sem prévio aviso. A Fantasy Games não é responsável por erros descritivos. As fotos contidas nesta página são meramente ilustrativas do produto e podem variar de acordo com o fornecedor/lote do fabricante. </p>

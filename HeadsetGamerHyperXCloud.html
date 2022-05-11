@@ -1,33 +1,49 @@
 <head>
     <meta charset="utf-8">
     <title>Headset Gamer HyperX Cloud Stinger | Fantasy Games</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="CSS/PS4.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/produtos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 
+<!--Cabeçalho da página-->
 <header>
-    <div class="Logo home">
-        <img src=".\imagens\LOGO FANTASY.jpg" href="index.html" alt="imagem logo" width="10%">
+    <div class="logoHome">
+        <a href="index.html">
+            <img src=".\imagens\LOGO FANTASY.jpg" alt="imagem logo" width="35%">
+        </a>
     </div>
 
+    <!-- Barra de pesquisa de itens-->
+    <div class="barraDePesquisa">
+        <input type="text" placeholder="Pesquisar item...">
+    </div> 
+
     <div class="direita">
-        <a class="login">Login</a>
-        <a class="carrinho">Carrinho</a>
-    </div>    
+        <a class="login" href="login.html">Login</a>
+        <a class="carrinho" href="carrinho.html">Carrinho</a>
+    </div>  
 </header>
 
 <body>
-    <img src="C:\Users\Aluno.LIM_05_03\Downloads\site-fantasy-games-V3-main\site-fantasy-games-V3-main\imagens\HX StingerCore.jpg" class="produto" width="25%">    
+    <img src=".\imagens\HX StingerCore.jpg" class="produto" width="25%">    
         
     <div class="texto_produto">
-        <p>HEadset Gamer HyperX Cloud Stinger</p>
+        <p>Headset Gamer HyperX Cloud Stinger</p>
         
         <p> <img src=".\imagens\dinheiro.jpg" width="7%">
             R$550,00 À VISTA </p>
         <p> <img src=".\imagens\cartao.jpg" width="7%>"> 5x R$130,00 </p>
+
+        <ul class="parcelas">
+            <li>1x de R$549,99 </li>
+            <li>2x de R$274,99</li>
+            <li>3x de R$183,33</li>
+            <li>3x de R$162,60</li>
+            <li>5x de R$129,99</li>
+        </ul>
 
         <input class="botaoAdicionarCarrinho" type="button" value="ADICIONAR AO CARRINHO"> 
     </div>
@@ -39,6 +55,35 @@
            <li> Sobre o Heatset Gamer HyperX Cloud Stinger, ele é compatível com vários consoles, além de apresentar controles de áudio no fio, junto com um controle ajustável de aço no arco da cabeça e fones de ouvido macios, tendo o microfone flexível e giratório te permite posicionar o microfone onde quiser, adcionando conforto e qualidade de som, tendo cabo compatível com 1 entrada fone+microfone. Caso seu computador tenha duas entradas separadas, será necessário um adaptador vendido separadamente.</li>
         </ul>
     </div>
+
+    <div>
+        <p class="tituloComentario">AVALIAÇÕES</p>
+    </div>
+
+    <div class="comentario">
+        <h1>Deixe seu comentário</h1>
+        <form>
+            <label for="nomeesobrenome">Nome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required placeholder="Deixe sua opnião..."></textarea> <br>
+
+            <ul class="avaliacao">
+                <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li>
+                <li class="star-icon" data-avaliacao="3"></li>
+                <li class="star-icon" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+            </ul>
+
+            
+        </form>
+
+        <input class="botaoAvaliacao" type="button" value="Enviar avaliação">
+    </div>
+    
+    
 
     <footer>
         <div class="endereços">
